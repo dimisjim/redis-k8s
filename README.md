@@ -12,8 +12,4 @@ https://www.containiq.com/post/deploy-redis-cluster-on-kubernetes
 1. restart the tunnel forwarding: `kubectl port-forward service/grafana 3000:3000`
 1. go to the data sources, and now add the redis one
 1. use the endpoint of one of the internal redis nodes, with the port, i.e: `redis-0.redis.redis.svc.cluster.local:6379` and for password: `a-very-complex-password-here`
-1. now Grafana should be connected with Redis
-
-### Load the timeseries module into the cluster
-
-### Create a dashboard
+1. now Grafana should be connected with Redis!
